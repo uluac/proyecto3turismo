@@ -1,0 +1,181 @@
+.ChipIcon{
+  float: right;
+  font-size: 16px;
+  line-height: 32px;
+  padding-left: 8px;
+}
+body{
+  padding: 0 10%;
+  background: rgba(148,195,63,1);
+  background-image: url("../imagenes/fondo.jpg");
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+    background-attachment: fixed;
+    background-position: bottom;
+  background-size:  100%;
+}
+
+
+.Contenedor{
+  width: 100%;
+  min-height: 800px;
+}
+.Completar{
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+/* --------------       CABEZERA DE LA PAGINA     --------------*/
+.Cabezera{
+  padding-top: 10px;
+  }
+.Logo{
+  width: 100%;
+  min-height: 30px;
+}
+.Logo img{
+  width: 100%;
+  margin-top:5px;
+  padding: 20px;
+  min-height: 50px;
+  border: 4px solid white;
+  border-radius: 10px;
+}
+.menu{
+  margin: 5px;
+  font-size: 12px !important;
+}
+.Boton{
+  padding: 0 15px !important;
+  margin: 5px !important;
+}
+.Titulo{
+  margin-top: 50px;
+  padding-left: 20px;
+  font-style: italic;
+  font-family: fantasy;
+  color: white;
+}
+.Titulo h4{
+}
+/* --------------     FIN CABEZERA DE LA PAGINA      --------------*/
+/* --------------       SECCION PRINCIPAL DE LA PAGINA   --------------*/
+        /* --------------      GALERIA DE FOTOS     --------------*/
+.FotosCol{
+  min-height: 500px;
+}
+.Foto{
+  width: 98%;
+  margin: 10px 1%;
+}
+.Foto img{
+  width: 100%;
+}
+    /* --------------      FIN GALERIA DE FOTOS     --------------*/
+.RSociales img{
+  width: 90%;
+  margin-right: 10%;
+    margin-bottom: 5px;
+  filter: invert();
+}
+        /* --------------     SECCION DE PUBLICACIONES     --------------*/
+.BAJO{
+  min-height: 100px;
+}
+    /* --------------      INFORMACION AUTOS     --------------*/
+.PerfilAutor{
+  background: rgba(255,255,255,1);
+  min-height: 400px;
+  border: 1px solid white;
+}
+.FotoAutor{
+  width: 50%;
+  margin: 20px 25%;
+}
+.FotoAutor img{
+  width: 100%;
+}
+.ContenidoAutor{
+  width: 80%;
+  margin: 0 10%;
+  text-align: justify;
+}
+.ContenidoAutor h6{
+  text-align: center;
+}
+    /* --------------    FIN  INFORMACION AUTOS     --------------*/
+hr{
+  width: 80%;
+  margin: 0 10%;
+}
+    /* --------------      INCIO DE ARTICULOS     --------------*/
+.Publicacion{
+  height: 500px;
+  background: white;
+}
+.Articulo{
+
+  text-align: justify;
+
+  border: 1px solid white;
+}
+.TituloArt .Chip{
+  width: 100%;
+}
+.TextoArt{
+  margin: 10px;
+  padding: 5px;
+}
+.Comentario{
+  padding: 0 10px;
+  padding-top: 10px;
+  border: 1px solid white;
+  margin-top: 10px;
+}
+/* --------------      INCIO DE ARTICULOS     --------------*/
+
+@media (min-width:601px) and (max-width:1100px) {
+  body{
+    padding: 0;
+  }
+  .Titulo{
+    margin-top: 0px;
+    padding-left: 30px;
+    height: auto;
+  }
+}
+@media (max-width:600px) {
+  body{
+    padding: 0;
+  }
+  .menu{
+    font-size: 0px !important;
+  }
+  .Titulo{
+    margin-top: 10px;
+      padding-left: 30px;
+    height: auto;
+  }
+
+  .Logo{
+    padding: 0px;
+    margin: 0px;
+  }
+  .Logo img{
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+  }
+  .TituloArt{
+    margin-left: 20px;
+  }
+  .Chips{
+    width: 100%;
+    margin-left: 15px;
+  }
+  .TextoArt{
+    margin: 10px;
+    padding: 5px;
+  }
+
+}
